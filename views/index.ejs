@@ -1,0 +1,23 @@
+<% include ./partials/header %>
+<br>
+    <div class="container loginbody">
+    <h1>Log In!</h1>
+    <form name="login_form" id="login_form" method="post" action="/login">
+        <div>
+            <input class="form-control" type="text" name="email" id="email" placeholder="Email address">
+        </div>
+        <br>
+        <div>
+            <input class="form-control" type="password" name="password" id="password" placeholder="Password">
+        </div>
+        <br>
+        <input class="btn" type="submit" value="Log In">
+        </form>
+        <form name="signup_form" id="signup_form" method="post" action="/signup"><br>
+        <input class="btn logout" type="submit" value="Sign Up">
+        </form>
+    </form>
+    <br><br>
+    </div>
+
+<% include ./partials/footer %>

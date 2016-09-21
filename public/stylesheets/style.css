@@ -1,0 +1,57 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: white;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.header{
+  text-align: center;
+  margin-top:-50px;
+  padding-bottom: 0px;
+  background-color: white;
+}
+
+.navigation {
+  text-align: center;
+  display: inline-block;
+}
+.footer {
+  text-align:center;
+  background-color: white;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:50px;
+  width:100%;
+}
+
+#login_form {
+  width:400px;
+  display:inline-block;
+  text-align:center;
+}
+
+.navbar ul{
+  text-align:center;
+}
+.navbar-brand, .navbar-nav>li>a{
+  padding:10px;
+  text-align:center;
+}
+
+.loginbody {
+  text-align: center;
+}
+
+.loginbtn {
+  text-align:left;
+}
+
+
+#signupbtn {
+  text-align:right;
+}
